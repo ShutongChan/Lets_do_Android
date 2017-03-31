@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/cn/com/sgmsc/ZSWB/AlarmActivity.java" />
+        <ignore path="src/cn/com/sgmsc/ZSWB/ChangeBackActivity.java" />
+        <ignore path="src/cn/com/sgmsc/ZSWB/DiaryDetailActivity.java" />
+        <ignore path="src/cn/com/sgmsc/ZSWB/DiaryListActivity.java" />
+    </issue>
+</lint>

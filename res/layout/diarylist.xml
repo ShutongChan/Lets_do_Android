@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listBack"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back1"
+    >
+    <TextView
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="按menu键弹出添加菜单..."
+        />
+    <ScrollView
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:fillViewport="true"
+    	>
+		<ListView	
+			android:id="@+id/listDiary"
+			android:divider="@color/listDivider"
+			android:dividerHeight="1px"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:choiceMode="singleChoice"
+			/> 
+		</ScrollView>
+</LinearLayout>

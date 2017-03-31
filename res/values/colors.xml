@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="listDivider">#66cdaa</color>
+	<color name="character">#66cdaa</color>
+	<color name="touming">#00000000</color>
+</resources>
